@@ -10,3 +10,15 @@ const gameName = new String ('sohampawar');
 console.log(gameName);
 console.log(gameName.length);
 console.log(gameName.indexOf('a'));
+
+//another one way to play with strings 
+
+const newString = gameName.substring(0,4);
+console.log(newString);
+console.log(gameName.slice(-8,4));
+
+//trim
+const newString1 = ('    sohamgotnochill   ');
+
+console.log(newString1);
+console.log(newString1.trim());
