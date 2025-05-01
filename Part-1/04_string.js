@@ -21,5 +21,4 @@ console.log(gameName.slice(-8,4));
 const newString1 = ('    sohamgotnochill   ');
 
 console.log(newString1);
-//DFF
 console.log(newString1.trim());
