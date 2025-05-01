@@ -20,5 +20,5 @@ console.log(gameName.slice(-8,4));
 //trim
 const newString1 = ('    sohamgotnochill   ');
 
-console.log(newString1);
+console.log(newString1);D
 console.log(newString1.trim());
