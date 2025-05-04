@@ -17,7 +17,7 @@ const newString = gameName.substring(0,4);
 console.log(newString);
 console.log(gameName.slice(-8,4));
 
-//trimM
+//trimMM
 const newString1 = ('    sohamgotnochill   ');
 
 console.log(newString1);D
