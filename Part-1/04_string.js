@@ -11,7 +11,7 @@ console.log(gameName);
 console.log(gameName.length);
 console.log(gameName.indexOf('a'));
 
-//another one way to play with strings 
+//another one way to play with strings
 
 const newString = gameName.substring(0,4);
 console.log(newString);
