@@ -13,4 +13,6 @@ console.log(users.weight);
 console.log(users.email);
 console.log(users.isloggedin);
 
-//  object constructor);
+users.email = "soham@gmail.com";
+console.log(users.email);
+Object.freeze(users)
