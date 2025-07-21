@@ -1,4 +1,4 @@
- let name = "soham";
+let name = "soham";
 let value = 'programmer';
 let num = 5;
 
