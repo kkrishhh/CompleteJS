@@ -1,4 +1,4 @@
-//sinleton 
+//singleton 
 //  object literal
 let users = {
     name : 'soham',
