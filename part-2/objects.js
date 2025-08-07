@@ -1,5 +1,4 @@
-//singleton 
-//  object literal
+
 let users = {
     name : 'soham',
     weight: '60',
@@ -16,3 +15,12 @@ console.log(users.isloggedin);
 users.email = "soham@gmail.com";
 console.log(users.email);
 Object.freeze(users)
+
+const student = {
+    name : "soham",
+    age : 23 ,
+    getage() {
+        let orgage = age ;
+        console.log(orgage);
+    }
+}
