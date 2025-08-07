@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom| edit n all</title>
+</head>
+<body class="bg-class" style="background-color: rgb(24, 24, 24); color: antiquewhite">
+<button>YES!</button>
+<button>NO!</button>
+<button>WE CAN!</button>
+
+<hr />
+
+<p id="p1">First line of paragraph.</p>
+
+</body>
+<script>
+    function addTextNode(text) {
+  const newText = document.createTextNode(text);
+  const p1 = document.getElementById("p1");
+
+  p1.appendChild(newText);
+}
+
+document.querySelectorAll("button").forEach((button) => {
+  button.addEventListener("click", (event) => {
+    addTextNode(`${event.target.textContent} `);
+  });
+});
+
+</script>
+</html>
