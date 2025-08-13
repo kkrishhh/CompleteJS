@@ -13,3 +13,10 @@ function mul( a, b){
 
 let multiply = mul( 4, 5);
 console.log(multiply);
+
+function stringLength(string){
+    console.log("original string", string);
+    console.log("length: ", string.length);
+}
+
+stringLength("soham");
