@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello javascript</h1>
+   <button id="stop">stop</button> 
+   <script>
+    const saysoham = function(){
+        console.log("soham");
+    }
+    
+   
+    const changedText = function(){
+         document.querySelector('h1').innerHTML 
+    = "javascript done"
+    console.log('done')
+    }
+
+    const clear = setTimeout(changedText,3000)
+
+    document.querySelector('button').addEventListener('click',function(){
+        clearTimeout(clear);
+        console.log("stopped")
+    } )
+   </script>
+</body>
+</html>
